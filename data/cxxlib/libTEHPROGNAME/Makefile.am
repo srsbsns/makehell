@@ -1,0 +1,3 @@
+lib_LTLIBRARIES = libTEHPROGNAME.la
+libTEHPROGNAME_la_SOURCES = TEHPROGNAME.cpp
+libTEHPROGNAME_la_CPPFLAGS = -I$(top_srcdir)/include

@@ -1,0 +1,4 @@
+bin_PROGRAMS = testlibTEHPROGNAME
+testlibTEHPROGNAME_SOURCES = testlibTEHPROGNAME.cpp
+testlibTEHPROGNAME_CPPFLAGS = -I$(top_srcdir)/include
+testlibTEHPROGNAME_LDADD = ../libTEHPROGNAME/libTEHPROGNAME.la
